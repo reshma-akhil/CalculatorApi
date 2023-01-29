@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "fa76dc91-8af2-4a88-8862-7f7800adc4d2",
+		"name": "Calculator Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "hasjdhkjhlasjkflajksfkjdhlksanldkjnalksi21iwuuq",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"value1\" : 4,\r\n    \"value2\" : 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7261/api/Calculator/Add?value1=2&value2=6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7261",
+					"path": [
+						"api",
+						"Calculator",
+						"Add"
+					],
+					"query": [
+						{
+							"key": "value1",
+							"value": "2"
+						},
+						{
+							"key": "value2",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Substract",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "hasjdhkjhlasjkflajksfkjdhlksanldkjnalksi21iwuuq",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7261/api/Calculator/substract?value1=2&value2=6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7261",
+					"path": [
+						"api",
+						"Calculator",
+						"substract"
+					],
+					"query": [
+						{
+							"key": "value1",
+							"value": "2"
+						},
+						{
+							"key": "value2",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Multiply",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Api-Key",
+						"value": "hasjdhkjhlasjkflajksfkjdhlksanldkjnalksi21iwuuq",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7261/api/Calculator/multiply?value1=2&value2=6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7261",
+					"path": [
+						"api",
+						"Calculator",
+						"multiply"
+					],
+					"query": [
+						{
+							"key": "value1",
+							"value": "2"
+						},
+						{
+							"key": "value2",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Division",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Api-Key",
+						"value": "hasjdhkjhlasjkflajksfkjdhlksanldkjnalksi21iwuuq",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7261/api/Calculator/divide?value1=25&value2=5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7261",
+					"path": [
+						"api",
+						"Calculator",
+						"divide"
+					],
+					"query": [
+						{
+							"key": "value1",
+							"value": "25"
+						},
+						{
+							"key": "value2",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DivisionByZero",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "hasjdhkjhlasjkflajksfkjdhlksanldkjnalksi21iwuuq",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7261/api/Calculator/divide?value1=25&value2=0",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7261",
+					"path": [
+						"api",
+						"Calculator",
+						"divide"
+					],
+					"query": [
+						{
+							"key": "value1",
+							"value": "25"
+						},
+						{
+							"key": "value2",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

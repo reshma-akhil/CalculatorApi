@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CalculatorApi/DFLog.db
+/.vs
+/CalculatorApi/bin/Debug/net6.0
+/CalculatorApi/obj
+/CalculatorApi.Test/bin
+/CalculatorApi.Test/obj
